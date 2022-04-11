@@ -1,0 +1,18 @@
+Kurdugum ama gerceklestiremedigim plani size aktarmak isterim.
+Client tarafindan gonderilen mesaja karsilik donebilecek mesaj obeklerini Bir JSON uzerinde tutup, random mesaj dondurmeyi dusunuyordum.
+
+Soyle ki;
+
+ "intents": [
+    {
+      "tag": "hello",
+      "patterns": [
+        "Hello"
+      ],
+      "responses": [
+        "Hi, Welcome to our company, we are here to assist you. Please contact us on: test@test.com",
+        "Hi, we are here to assist you Please contact us on: test@test.com"
+
+      ],
+      "context_set": ""
+    },
